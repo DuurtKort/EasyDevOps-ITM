@@ -1,0 +1,15 @@
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\bin\Debug\net10.0\frontend.exe
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\bin\Debug\net10.0\frontend.deps.json
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\bin\Debug\net10.0\frontend.runtimeconfig.json
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\bin\Debug\net10.0\frontend.dll
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\bin\Debug\net10.0\frontend.pdb
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.AssemblyInfoInputs.cache
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.AssemblyInfo.cs
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.sourcelink.json
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.dll
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\refint\frontend.dll
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.pdb
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\frontend.genruntimeconfig.cache
+C:\Users\Eren\Documents\Git-ITM\EasyDevOps-ITM\frontend\obj\Debug\net10.0\ref\frontend.dll
