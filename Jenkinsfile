@@ -16,9 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir('frontend') {
-                    bat '"C:\\Program Files\\dotnet\\dotnet.exe" test'
-                }
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" test'
             }
         }
     }
