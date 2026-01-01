@@ -10,14 +10,14 @@ pipeline {
             steps {
                 echo 'Build EasyDevOps project'
                 dir ('frontend') {
-                    bat '"C:\Program Files\dotnet" build frontend.sln --configuration Release'
+                    bat '"C:\\Program Files\\dotnet\\dotnet.exe" build frontend.sln --configuration Release'
                 }
             }
         }
         stage('Test') {
             steps {
                 dir ('frontend') {
-                    bat '"C:\Program Files\dotnet" test'
+                    bat '"C:\\Program Files\\dotnet\\dotnet.exe" test'
                 }
             }
         }
