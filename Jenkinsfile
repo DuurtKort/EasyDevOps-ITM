@@ -21,5 +21,14 @@ pipeline {
                 }
             }
         }
+        stage('Security') {
+    steps {
+        dir('frontend') {
+            snykSecurity(
+                snykInstallation: 'snyk',
+                monitorProjectOnBuild: true,
+                failOnIssues: true
+            )
+        }
     }
 }
