@@ -26,6 +26,7 @@ pipeline {
         dir('frontend') {
             snykSecurity(
                 snykInstallation: 'snyk',
+                snykTokenId: 'snyk-token',
                 monitorProjectOnBuild: true,
                 failOnIssues: true
             )
