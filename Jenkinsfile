@@ -33,5 +33,22 @@ pipeline {
         }
     }
         }
+        stage('Package (Publish + ZIP)') {
+            steps {
+                dir('frontend') {
+                    powershell '''
+                    if (Test-Path out) { Remove-Item out -Recurse -Force }
+                    if (Test-Path artifact.zip) { Remove-Item artifact.zip -Force }
+                    & "C:\\Program Files\\dotnet\\dotnet.exe" publish frontend.csproj -c Release -o out
+                    Compress-Archive -Path out\\* -DestinationPath artifact.zip -Force
+                    '''
+                }
+            }
+        }
     }
+        post {
+            success {
+                archiveArtifacts artifacts: 'frontend/artifact.zip', fingerprint: true
+            }
+        }
 }
